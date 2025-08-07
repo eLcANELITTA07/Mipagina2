@@ -1,0 +1,27 @@
+.footer{
+    background-color: #8a8a8ae3; /* color de fondo gris claro */
+    display: flex; /* elementos en línea */
+    align-items: center; /* alineación vertical centrada */
+    padding: 1px 20px; /* relleno interno */
+    font-size: 10px; gap: 320px; font-style: rgb(0, 0, 0);
+    /*position: fixed;*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.navbar.dark-mode, .dropdown-menu.dark-mode {
+    background-color: #1e1e1e !important;
+}
+
+.navbar a, .navbar-brand, .nav-link, .dropdown-item {
+    color: inherit !important;
+}
